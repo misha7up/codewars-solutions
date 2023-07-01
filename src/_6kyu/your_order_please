@@ -1,0 +1,10 @@
+""" https://www.codewars.com/kata/55c45be3b2079eccff00010f/train/python """
+
+
+def order(s):
+    lst = []
+    for i in range(1, 10):
+        for j in list(s.split()):
+            if str(i) in j:
+                lst.append(j)
+    return " ".join(lst)
