@@ -1,0 +1,6 @@
+""" https://www.codewars.com/kata/52597aa56021e91c93000cb0 """
+
+
+def move_zeros(lst):
+    list_without_zeros = [i for i in lst if i != 0]
+    return list_without_zeros+[0]*(len(lst)-len(list_without_zeros))

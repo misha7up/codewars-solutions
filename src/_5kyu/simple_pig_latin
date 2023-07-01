@@ -1,0 +1,18 @@
+""" https://www.codewars.com/kata/520b9d2ad5c005041100000f """
+
+import string
+
+
+def pig_it(text):
+    lst = text.split(' ')
+    lst2 = []
+    for i in lst:
+        if i not in string.punctuation:
+            i = i[1:]+i[0]+'ay'
+            lst2.append(i)
+        else:
+            lst2.append(i)
+    return ' '.join(lst2)
+
+# better solution: return ' '.join([word[1:] + word[:1] + 'ay' if word.isalpha
+# () else word for word in lst])

@@ -1,0 +1,13 @@
+""" https://www.codewars.com/kata/550f22f4d758534c1100025a """
+
+
+def dirreduc(plan):
+    opposites = {'NORTH': 'SOUTH', 'EAST': 'WEST',
+                 'SOUTH': 'NORTH', 'WEST': 'EAST'}
+    new_plan = []
+    for x in plan:
+        if new_plan and new_plan[-1] == opposites[x]:
+            new_plan.pop()
+        else:
+            new_plan.append(x)
+    return new_plan
