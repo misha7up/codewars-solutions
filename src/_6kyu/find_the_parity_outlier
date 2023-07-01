@@ -1,0 +1,7 @@
+""" https://www.codewars.com/kata/5526fc09a1bbd946250002dc """
+
+
+def find_outlier(integers):
+    ods = [x for x in integers if x % 2 == 0]
+    evens = [x for x in integers if x % 2 != 0]
+    return ods[0] if len(ods) < len(evens) else evens[0]

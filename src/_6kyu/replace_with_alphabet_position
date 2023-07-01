@@ -1,0 +1,8 @@
+""" https://www.codewars.com/kata/546f922b54af40e1e90001da """
+
+import string
+
+
+def alphabet_position(text):
+    return ' '.join([str(string.ascii_lowercase.index(a)+1)
+                    for a in text.lower() if a in string.ascii_lowercase])
