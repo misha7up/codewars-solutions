@@ -1,0 +1,8 @@
+""" https://www.codewars.com/kata/5168bb5dfe9a00b126000018 """
+
+
+def solution(string):
+    return ''.join(x for x in reversed(string))
+
+
+# better solution: return string[::-1]
