@@ -1,0 +1,6 @@
+""" https://www.codewars.com/kata/52bc74d4ac05d0945d00054e """
+
+
+def first_non_repeating_letter(s):
+    lst = [x for x in s if s.lower().count(x.lower()) == 1]
+    return "" if not lst else lst[0]

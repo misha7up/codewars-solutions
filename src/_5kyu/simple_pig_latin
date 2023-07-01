@@ -14,5 +14,6 @@ def pig_it(text):
             lst2.append(i)
     return ' '.join(lst2)
 
-# better solution: return ' '.join([word[1:] + word[:1] + 'ay' if word.isalpha
-# () else word for word in lst])
+# better solution:
+# return ' '.join([word[1:] + word[:1] + 'ay'
+#                 if word.isalpha() else word for word in lst])
