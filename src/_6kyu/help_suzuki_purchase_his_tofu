@@ -2,4 +2,23 @@
 
 
 def buy_tofu(cost, box):
-    pass
+    box = box.split(' ')
+    mon_count, monme_count = box.count('mon'), box.count('monme')
+    total_money = mon_count + monme_count * 60
+    if cost > total_money:
+        return 'leaving the market'
+    coins_count = 0
+    temp_monme_count = monme_count
+    temp_mon_count = mon_count
+    while cost > 0:
+        if cost // 60 > 0 and temp_monme_count > 0:
+            coins_count += 1
+            temp_monme_count -= 1
+            cost -= 60
+        elif temp_mon_count > 0:
+            coins_count += 1
+            temp_mon_count -= 1
+            cost -= 1
+        else:
+            return 'leaving the market'
+    return [mon_count, monme_count, total_money, coins_count]
