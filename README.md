@@ -1,1 +1,30 @@
-# codewars-solutions
+<a href = "https://www.codewars.com/users/misha7up">![rank](https://www.codewars.com/users/misha7up/badges/large) </a>
+
+# Solutions to Codewars challenges
+
+This repository contains my solutions to Codewars challenges for Python.
+
+The sole purpose of this repository is to showcase my solutions as part of the portfolio.
+
+> <p style = "color:red"><strong>Note:</strong> Please DO NOT use my solutions here as your own submissions on Codewars</p>
+
+## Completion Summary
+
+_(This repository is being regularly updated and will eventually cover all the ranks)_
+
+| Rank  | ✔️Python |
+| ----- | --------- |
+| 8 Kyu | 27        |
+| 7 Kyu | 21        |
+| 6 Kyu | 18        |
+| 5 Kyu | 9         |
+| 4 Kyu | --------- |
+| 3 Kyu | --------- |
+| 2 Kyu | --------- |
+| 1 Kyu | --------- |
+
+Total Kata: 75
+
+# Resources
+
+https://www.codewars.com/
