@@ -1,0 +1,19 @@
+""" https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1 """
+
+
+def snail(snail_map):
+    ans = []
+    while snail_map:
+        ans += snail_map[0]
+        del snail_map[0]
+        if snail_map:
+            for i in snail_map:
+                ans.append(i[-1])
+                del i[-1]
+            if snail_map[-1]:
+                ans += snail_map[-1][::-1]
+                del snail_map[-1]
+            for i in reversed(snail_map):
+                ans += [i[0]]
+                del i[0]
+    return ans
