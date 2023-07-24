@@ -1,0 +1,14 @@
+""" https://www.codewars.com/kata/56a1c63f3bc6827e13000006 """
+
+
+from bisect import bisect_left
+
+
+def smaller(arr):
+    right_arr = sorted(arr)
+    smaller_numbers = []
+    for number in arr:
+        index = bisect_left(right_arr, number)
+        smaller_numbers.append(index)
+        del right_arr[index]
+    return smaller_numbers
