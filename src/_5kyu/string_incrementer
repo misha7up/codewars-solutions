@@ -1,0 +1,9 @@
+""" https://www.codewars.com/kata/54a91a4883a7de5d7800009c """
+
+
+def increment_string(strng):
+    stripped = strng.rstrip('0123456789')
+    nums = strng[len(stripped):]
+    if len(nums) == 0: return strng + '1'
+    new_nums = int(nums) + 1
+    return stripped + str(new_nums).zfill(len(nums))
