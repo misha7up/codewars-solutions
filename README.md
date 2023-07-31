@@ -14,17 +14,17 @@ _(This repository is being regularly updated and will eventually cover all the r
 
 | Rank  | ✔️Python |
 | ----- | --------- |
-| 8 Kyu | 27        |
-| 7 Kyu | 21        |
-| 6 Kyu | 18        |
-| 5 Kyu | 9         |
-| 4 Kyu | --------- |
-| 3 Kyu | --------- |
+| 8 Kyu | 32        |
+| 7 Kyu | 23        |
+| 6 Kyu | 21        |
+| 5 Kyu | 10        |
+| 4 Kyu | 2         |
+| 3 Kyu | 1         |
 | 2 Kyu | --------- |
 | 1 Kyu | --------- |
 
-Total Kata: 75
+Total Kata: 89
 
 # Resources
 
-https://www.codewars.com/
+https://codewars.com/
