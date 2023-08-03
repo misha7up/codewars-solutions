@@ -6,7 +6,7 @@ This repository contains my solutions to Codewars challenges for Python.
 
 The sole purpose of this repository is to showcase my solutions as part of the portfolio.
 
-> <p style = "color:red"><strong>Note:</strong> Please DO NOT use my solutions here as your own submissions on Codewars</p>
+> <p style = "color:red"><strong>Note:</strong> Please don't use my solutions here as your own submissions on Codewars</p>
 
 ## Completion Summary
 
