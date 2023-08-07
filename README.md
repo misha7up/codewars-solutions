@@ -1,12 +1,14 @@
+## Current rank & stats:
+
 <a href = "https://www.codewars.com/users/misha7up">![rank](https://www.codewars.com/users/misha7up/badges/large) </a>
 
-# Solutions to Codewars challenges
+## Solutions to Codewars challenges
 
 This repository contains my solutions to Codewars challenges for Python.
 
-The sole purpose of this repository is to showcase my solutions as part of the portfolio.
+The main purpose of this repository is to showcase my solutions as part of the portfolio.
 
-> <p style = "color:red"><strong>Note:</strong> Please don't use my solutions here as your own submissions on Codewars</p>
+> <p style = "color:red"><strong>Note:</strong> please don't use my solutions here as your own submissions on Codewars ;)</p>
 
 ## Completion Summary
 
@@ -25,6 +27,6 @@ _(This repository is being regularly updated and will eventually cover all the r
 
 Total Kata: 89
 
-# Resources
+## Resources
 
 https://codewars.com/
